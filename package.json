@@ -1,0 +1,21 @@
+{
+  "name": "presentation-pradarshan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "generate": "node scripts/deck-build.js",
+    "dev": "NODE_PATH=lib next",
+    "build": "NODE_PATH=lib next build",
+    "start": "NODE_PATH=lib next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
